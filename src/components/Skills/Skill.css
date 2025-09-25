@@ -1,0 +1,100 @@
+.skills {
+  padding: 4rem 1rem;
+  text-align: center;
+  color: #fff;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fdd835;
+}
+
+.sectionDesc {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.skillCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.skillCard {
+  background: #2a2a2a;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: left;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skillCard:hover {
+  background: #383838;
+  transform: translateY(-5px);
+}
+
+.skillCardImg {
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.skillCard h3 {
+  color: #fdd835;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.skillCard p {
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.skillCard h4 {
+  margin-top: 1rem;
+  color: #fdd835;
+  font-size: 1.1rem;
+}
+
+.profileList,
+.contestList {
+  margin: 0.5rem 0 1rem 1.2rem;
+  padding: 0;
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.profileList li,
+.contestList li {
+  margin-bottom: 0.5rem;
+}
+
+.profileList a {
+  color: #fdd835;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profileList a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .sectionDesc {
+    font-size: 1rem;
+  }
+  .skillCard {
+    text-align: center;
+  }
+}

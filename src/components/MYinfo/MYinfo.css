@@ -1,0 +1,84 @@
+.myInfo {
+  padding: 4rem 1rem;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.myInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+/* Existing styles remain unchanged */
+
+.highlight {
+  color: #c8fd35; /* Gold color for emphasis */
+  font-weight: 700;
+}
+
+.myInfoImage img {
+  width: 250px;
+  border-radius: 1rem;
+  border: 3px solid #fdd835;
+}
+
+.myInfoContent {
+  max-width: 500px;
+}
+
+.myInfoTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fdd835;
+  margin-bottom: 1rem;
+}
+
+.myInfoDesc {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.myInfoSubTitle {
+  font-size: 1.2rem;
+  color: #fdd835;
+  margin-bottom: 0.5rem;
+}
+
+.myInfoList {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.myInfoList li {
+  margin-bottom: 0.5rem;
+}
+
+.myInfoList a {
+  color: #fdd835;
+  text-decoration: none;
+}
+
+.myInfoList a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .myInfoContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .myInfoImage img {
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+}

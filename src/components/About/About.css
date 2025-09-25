@@ -1,0 +1,34 @@
+.abouts {
+    text-align: center;
+  }
+  
+  .aboutsTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .abouts-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .about {
+    background-color: #ffda44;
+    border: none;
+    padding: 12px 25px;
+    color: #333333;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Added transition for box-shadow */
+    font-size: 1rem;
+    font-weight: 600; /* Slightly bolder */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about:hover {
+    background-color: #f9de72;
+  }
+  
